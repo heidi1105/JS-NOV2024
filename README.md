@@ -15,14 +15,14 @@
         <td>1</td>
         <td>JS Fundamentals</td>
         <td>Fundamentals </td>
-        <td></td>
+        <td><a href="./js1_fundamentals/js1_fundamental.js">Code</a></td>
     </tr>
     <tr>
         <td>W1D2 </td>
         <td></td>
         <td>JS Fundamentals & Intro to React</td>
         <td>Functional Programming</td>
-        <td></td>
+        <td><a href="./js1_fundamentals/js2_functional.js">Code</a></td>
     <tr>
         <td>W1D3 </td>
         <td>2</td>

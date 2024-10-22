@@ -25,7 +25,7 @@ chrome-user-data
 *.swp
 *.swo
 .env
-react0-react-intro
+react0-intro-to-react
 functional_crud.js
 react8-show-walker
 faker_demo
