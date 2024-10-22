@@ -66,8 +66,9 @@ const cheapItemArr = shoppingList.filter((eachItem)=>{
 console.table(cheapItemArr)
 
 // return a list of cheap items with only the names
-const cheapItemNames = shoppingList.filter((eachItem)=> eachItem.price< 100 && eachItem.shops.includes("Trader Joes")) // return an array of cheap items
+const cheapItemNames = shoppingList.filter((eachItem)=> eachItem.price< 100) // return an array of cheap items
                                    .map((eachItem)=> eachItem.item); // return only the name of the above array
 
 console.log(cheapItemNames);
 
+// CRUD (Create, update, delete) without changing the orignal array
