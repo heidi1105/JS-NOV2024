@@ -155,4 +155,4 @@ rating>5?
     console.log("This movie is great"):
     console.log("");
 
-rating< 10 && rating>5 && console.log("This movie is great!");
+rating>5 && console.log("This movie is great!");
