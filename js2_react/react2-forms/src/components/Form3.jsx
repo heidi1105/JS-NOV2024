@@ -10,24 +10,28 @@ const Form3 = () => {
 
     // error messages
     const [flavorErr, setFlavorErr] = useState("");
-    const [quantityErr, setQuantityErr] = useState("");
+    const [quantityErr, setQuantityErr] = useState(true);
+
 
     const handleSubmit = (e)=>{
         e.preventDefault();
 
-
-        const newIcecream = {
-            flavor: flavor,
-            quantity: quantity
+        if(quantityErr || flavorErr){
+            alert("Invalid Form")
+        }else{
+            const newIcecream = {
+                flavor: flavor,
+                quantity: quantity
+            }
+    
+            // alternative:
+            // const newIcecream = {flavor,quantity }
+    
+            // send all the icecream info to the server 
+            console.log(newIcecream)
+            // update the state variable if the form is submitted
+            setIsSubmitted(true);
         }
-
-        // alternative:
-        // const newIcecream = {flavor,quantity }
-
-        // send all the icecream info to the server 
-        console.log(newIcecream)
-        // update the state variable if the form is submitted
-        setIsSubmitted(true);
     }
 
     const formMessage = ()=>{
@@ -75,7 +79,7 @@ const Form3 = () => {
                     <input type="number" name="quantity" value={quantity} onChange={handleQuantity}/>
                     <p style={{color: "red"}}>{quantityErr}</p>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit" >Submit</button>
             </form>
             
             <p>Flavor: {flavor} | Quantity: {quantity}</p>
