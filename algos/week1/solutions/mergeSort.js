@@ -14,9 +14,18 @@ const expectedSort = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @returns {Array<number>} A New sorted array.
  */
 function mergeSort(nums = []) {
+    if(nums.length <= 1){
+        return nums; // exit the function
+    }
+
+    const mid = Math.floor(nums.length/2);
+    let left = nums.slice(0, mid) 
+    let right = nums.slice(mid)
+    return merge(mergeSort(left), mergeSort(right))   
 }
 
-
+console.log(mergeSort(numsRandomOrder))
+console.log(mergeSort(numsReversed))
 
 function merge(left = [], right = []) {
     let i = 0
@@ -45,5 +54,3 @@ function merge(left = [], right = []) {
     }
     return result
 }
-
-
