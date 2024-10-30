@@ -6,11 +6,16 @@
     - top right to bottom left diagonal
 */
 
+
 const squareMatrix1 = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [9, 8, 9],
-  ];
+    [1, 2, 3], // 0
+    [4, 5, 6], // 1
+    [9, 8, 9]  // 2
+];
+
+// access to 2: squareMatrix1[0][1]
+// access to the bottom left (9) squareMatrix1[2][0]
+
   const expected1 = 2;
   /* 
     left to right diagonal: 1 + 5 + 9 = 15
@@ -42,4 +47,8 @@ const squareMatrix1 = [
    *    bottom right diagonal and the top right to bottom left diagonal.
    */
   function diagonalDifference(sqrMatrix) {}
+
+
+  console.log(diagonalDifference(squareMatrix1))
+  console.log(diagonalDifference(squareMatrix2))
   
