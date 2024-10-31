@@ -52,6 +52,8 @@ const expected8 = [
  *    only.
  */
 
+function findConsqSums(nums, targetSum) {}
+
 
 
 
