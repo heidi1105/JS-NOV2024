@@ -7,7 +7,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 async function dbConnect() {
     try {
         await connect(MONGODB_URI, {
-            dbName: 'productDB',
+            dbName: 'productDB', // update the db name for your project
         });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } catch (error) {
