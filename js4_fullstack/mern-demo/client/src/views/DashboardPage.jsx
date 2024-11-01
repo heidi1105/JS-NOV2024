@@ -1,7 +1,4 @@
 import React from 'react'
-import axios from "axios"
-import { useEffect, useState } from "react"
-import { Link } from 'react-router-dom';
 // get data from API: axios
 // get data on load: useEffect
 // variable change when loading API: useState
