@@ -11,11 +11,21 @@ const DashboardPage = () => {
     // store the data in product list 
   }, [])
 
+  const handleDelete = (deleteId)=>{
+    /*
+      To add handleDelete, make sure the function takes an ID
+      After deleting from backend, filter the productList and update the state variable (Refer to CRUD form / todoList)
+    */
 
+  }
   return (
     <div className='row'>
       {  
-      /* DISPLAY THE LIST USING .map */
+      /* 
+          DISPLAY THE LIST USING .map 
+          To add the delete button, make sure the id of that product is sent
+          i.e.  onClick={()=>handleDelete(eachProduct._id)}
+      */
       }
     </div>
   )
