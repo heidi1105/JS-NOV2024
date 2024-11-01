@@ -7,30 +7,18 @@ import { Link } from 'react-router-dom';
 // variable change when loading API: useState
 
 const DashboardPage = () => {
-  const [productList, setProductList] = useState([]);
+    // Create state variable to store the product list
 
   useEffect(()=>{
-    axios.get(`http://localhost:8000/api/products`)
-      .then(res=>{
-        console.log(res.data);
-        setProductList(res.data);
-      })
-      .catch(err=> console.log(err))
+    // Axios to get the data from API (Postman route to get ONE)
+    // store the data in product list 
   }, [])
 
 
   return (
     <div className='row'>
-      {
-        productList.map((eachProduct)=>
-          <div key={eachProduct._id} className='col'>
-            <h3>{eachProduct.title}</h3>
-            <img src={eachProduct.imgUrl} className='img-thumbnail'/>
-            <p>Price: {eachProduct.price}</p>
-            <p>{eachProduct.isAvailable ? "(Available)" : "(Not Available)"}</p>
-            <Link to={`/products/${eachProduct._id}`}>Details</Link>
-          </div>
-        )
+      {  
+      /* DISPLAY THE LIST USING .map */
       }
     </div>
   )
