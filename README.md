@@ -35,7 +35,7 @@
         <td></td>
         <td></td>
         <td>Forms</td>
-        <td>
+        <td><a href="./js2_react/react2-forms/">Code</a>
         </td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
         <td></td>
         <td></td>
         <td>Lifting State</td>
-        <td></td>
+        <td><a href="./js2_react/react3-lifting-state-pseudo/">Code</a></td>
     </tr>
     <tr>
         <td>W2D1 </td>
@@ -57,33 +57,33 @@
         <td></td>
         <td> API & Routing in React </td>
         <td>React Routing</td>
-        <td></td>
+        <td><a href="./js2_react/react5-routing-demo/">Code</a></td>
     </tr>
     <tr>
         <td>W2D3 </td>
         <td>4</td>
         <td>Backend</td>
         <td>Express without DB</td>
-        <td></td>    
+        <td><a href="./js3_backend/">Code</a></td>    
         </tr>
     <tr>
         <td> W2D4 </td>
         <td></td>
         <td></td>
         <td>Backend with DB</td>
-        <td></td>
+        <td><a href="./js3_backend/backend3_fullbackend/">Code</a></td>
     </tr>
     <tr>
         <td> W2D5 </td>
         <td>5</td>
         <td>Full Stack</td>
-        <td>CRUD</td>
-        <td></td>
+        <td>CRUD & Validation</td>
+        <td><a href="./js4_fullstack/">Notes</a></td>
     </tr>
     <tr>
         <td> W3D1 </td>
         <td></td>
-        <td>Validation</td>
+        <td></td>
         <td></td>
         <td> </td>
     </tr>
