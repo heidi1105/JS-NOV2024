@@ -7,7 +7,7 @@
   Bonus: Make it O(n) time
 */
 
-const nums1 = [2, 11, 7, 15];
+const nums1 = [2, 11, 7, 15]; 
 const targetSum1 = 9;
 // expected1 = [0, 2];
 // Explanation: nums[0] + nums[2] = 2 + 7 = 9. Return order doesn't matter.
@@ -19,7 +19,7 @@ const targetSum2 = 6;
 // BONUS 
 const nums3 = [3, 8, 4, 1, 9, 0, -2];
 const targetSum3 = 6;
-// expected3 = [1, 6];
+// expected3 = [1, 6]; 
 
 /**
  * Finds the indexes of the nums that add up to the given target sum.
