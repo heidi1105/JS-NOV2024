@@ -52,4 +52,11 @@
 - When the button is clicked, execute handleDelete with the ID, and send API request to delete
 - Upon successful API request, update the list (in state) to remove that item (Refers to the platform/ TodoList / 5.10 from my demo)
 
+## 8. Validation
+- Setup: Make sure backend controller is sending res.status(400).json(err)
+- On Create axios.post, get the err.response.data.errors from .catch
+- Store the above in a state variable with initial value of {}
+- Display if {errors.title} is available. 
+- ** Check the platform for complete code **
+
 ![Belt Review](./beltreview.png)
