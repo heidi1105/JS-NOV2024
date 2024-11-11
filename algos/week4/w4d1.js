@@ -26,6 +26,7 @@ const str5 = "adaad";
 const expected5 = true;
 // Explanation: "daaad" / "adada"
 
+
 const  str6 = "abc";
 const expected6 = false;
 
@@ -40,10 +41,5 @@ const expected6 = false;
  */
 function canStringBecomePalindrome(str) {
   
-  //check to see if string is empty, if empty return false
-  // if one character return true
-  //check to see if pairs 
-  // if pairs with 1 single character return true
-  // if not return false
 }
 
