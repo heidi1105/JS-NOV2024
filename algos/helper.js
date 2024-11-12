@@ -39,3 +39,6 @@ console.log(Object.hasOwn(petWithProto, "eyecolor"))
 
 
 console.log(Object.entries(petWithProto));
+
+
+pet["isHungry"] = true;
